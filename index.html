@@ -67,7 +67,19 @@
         </div>
     </div>
 
+    <!-- 模块映射配置 -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/",
+                "lil-gui": "https://cdn.jsdelivr.net/npm/lil-gui@0.18.2/+esm"
+            }
+        }
+    </script>
+    
+    <!-- 游戏逻辑脚本 -->
     <script type="module" src="main.js"></script>
 </body>
 </html>
-
+    
