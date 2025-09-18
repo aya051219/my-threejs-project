@@ -1,4 +1,4 @@
-// 导入所需模块
+// 正确导入所需模块
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -15,12 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // 检查元素是否存在
         if (!rulesModal) {
             console.error('错误: 未找到ID为"rules-modal"的弹窗元素');
-            console.log('页面中所有元素ID:', Array.from(document.querySelectorAll('[id]')).map(el => el.id));
         }
         
         if (!startBtn) {
             console.error('错误: 未找到ID为"start-btn"的按钮元素');
-            console.log('页面中所有按钮:', Array.from(document.querySelectorAll('button')).map(btn => btn.outerHTML));
         }
         
         // 绑定点击事件
@@ -67,7 +65,7 @@ function initGame() {
     directionalLight.shadow.camera.bottom = -30;
     scene.add(directionalLight);
 
-    // 控制器和辅助工具
+    // 控制器和辅助工具 - 现在OrbitControls应该能正确加载
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.1;
