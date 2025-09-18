@@ -65,7 +65,7 @@ function initGame() {
     directionalLight.shadow.camera.bottom = -30;
     scene.add(directionalLight);
 
-    // 控制器和辅助工具 - 现在OrbitControls应该能正确加载
+    // 控制器和辅助工具
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.1;
