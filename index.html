@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小小特工向前冲</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        /* 规则弹窗样式 */
+        #rules-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            font-family: Arial, sans-serif;
+        }
+        .modal-content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+        }
+        .modal-content h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .modal-content p {
+            color: #666;
+            line-height: 1.6;
+            text-align: left;
+        }
+        #start-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        #start-btn:hover {
+            background-color: #3fac52;
+        }
+    </style>
+</head>
+<body>
+    <!-- 游戏规则弹窗 -->
+    <div id="rules-modal">
+        <div class="modal-content">
+            <h2>游戏规则</h2>
+            <p>1. 欢迎来到小小特工向前冲，这是一款以无畏契约为背景的大富翁游戏。</p>
+            <p>2. 这是一个3D互动场景，您可以通过鼠标左键旋转视角，右键拖动视角，滚轮缩放场景。</p>
+            <p>3. 您初始情况下拥有一颗能量球，在死亡时将丢失一半。</p>
+            <p>4. 在到达普通格子时，您可以获得一个能量球，同时局内还有很多特殊格子，等待您的发现。</p>
+            <p>5. 当有一方能量球清零时视为游戏结束，根据其拥有的能量球数量进行排名。</p>
+            <button id="start-btn">开始游戏</button>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
+

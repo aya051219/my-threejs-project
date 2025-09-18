@@ -1,0 +1,513 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 38154,
+      "max": [
+        14.732050895690918,
+        33.51531219482422,
+        24.61252212524414
+      ],
+      "min": [
+        -31.791622161865234,
+        -1.143960952758789,
+        -28.76226806640625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 457848,
+      "componentType": 5126,
+      "count": 38154,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 38154,
+      "max": [
+        2.158405065536499,
+        1.0029268264770508
+      ],
+      "min": [
+        -0.046418190002441406,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 90651,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 915696,
+      "componentType": 5126,
+      "count": 11838,
+      "max": [
+        16.1081600189209,
+        41.26844024658203,
+        27.14234161376953
+      ],
+      "min": [
+        -36.11386489868164,
+        -0.4427937865257263,
+        -30.82680892944336
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1057752,
+      "componentType": 5126,
+      "count": 11838,
+      "max": [
+        0.9999335408210754,
+        1.0,
+        0.9968057870864868
+      ],
+      "min": [
+        -0.9982632994651794,
+        -0.9862598776817322,
+        -0.9998011589050293
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 305232,
+      "componentType": 5126,
+      "count": 11838,
+      "max": [
+        0.9962300658226013,
+        0.9916300773620605
+      ],
+      "min": [
+        0.06577345728874207,
+        0.01841200888156891
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 362604,
+      "componentType": 5125,
+      "count": 23430,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1199808,
+      "componentType": 5126,
+      "count": 201,
+      "max": [
+        22.226526260375977,
+        2.2971420288085938,
+        29.086727142333984
+      ],
+      "min": [
+        -41.6719856262207,
+        -1.1344776153564453,
+        -34.8133544921875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1202220,
+      "componentType": 5126,
+      "count": 201,
+      "max": [
+        0.7203503847122192,
+        1.0,
+        0.9270877242088318
+      ],
+      "min": [
+        -0.9270803332328796,
+        0.3710430860519409,
+        -0.7257000207901001
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 399936,
+      "componentType": 5126,
+      "count": 201,
+      "max": [
+        1.0,
+        1.0029338598251343
+      ],
+      "min": [
+        0.0,
+        0.0034911686088889837
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 456324,
+      "componentType": 5125,
+      "count": 1080,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "meesvanhout (https://sketchfab.com/meesjevanhout)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dae-villages-greek-sculptor-house-d101c41b6dc34bd89b1006a84c507d15",
+      "title": "DAE Villages | Greek Sculptor House"
+    },
+    "generator": "Sketchfab-15.19.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 460644,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 401544,
+      "byteOffset": 460644,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1204632,
+      "byteOffset": 862188,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2066820,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/HouseTEX_baseColor.png"
+    },
+    {
+      "uri": "textures/VegetationTEX_baseColor.png"
+    },
+    {
+      "uri": "textures/GroundTEX_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "HouseTEX",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8938650995
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "VegetationTEX",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "GroundTEX",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8756570176
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ambientLight4_HouseTEX_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ambientLight4_VegetationTEX_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ambientLight4_GroundTEX_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.04709426313638687,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0457027052354489e-17,
+        -0.04709426313638687,
+        0.0,
+        0.0,
+        0.04709426313638687,
+        1.0457027052354489e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "44931cabfe75442d97ff46f46c0360bf.fbx"
+    },
+    {
+      "children": [
+        3,
+        6,
+        9
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        5.907957603494016,
+        -0.21381859012631835,
+        -10.278056073840837,
+        0.0,
+        8.678653303026193,
+        6.457965978776084,
+        4.854252811095245,
+        0.0,
+        5.510456595634581,
+        -9.941683716487361,
+        3.374301569234779,
+        0.0,
+        228.79457092285156,
+        207.8909912109375,
+        0.0,
+        1.0
+      ],
+      "name": "directionalLight1"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "name": "Object_5"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -7.105427357601002e-15,
+        -2.3430893421173096,
+        1.0
+      ],
+      "name": "ambientLight2"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_7"
+    },
+    {
+      "name": "Object_8"
+    },
+    {
+      "children": [
+        10,
+        11,
+        12
+      ],
+      "name": "ambientLight4"
+    },
+    {
+      "mesh": 0,
+      "name": "ambientLight4_HouseTEX_0"
+    },
+    {
+      "mesh": 1,
+      "name": "ambientLight4_VegetationTEX_0"
+    },
+    {
+      "mesh": 2,
+      "name": "ambientLight4_GroundTEX_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

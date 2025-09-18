@@ -1,0 +1,11 @@
+Model Information:
+* title:	DAE Villages | Greek Sculptor House
+* source:	https://sketchfab.com/3d-models/dae-villages-greek-sculptor-house-d101c41b6dc34bd89b1006a84c507d15
+* author:	meesvanhout (https://sketchfab.com/meesjevanhout)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DAE Villages | Greek Sculptor House" (https://sketchfab.com/3d-models/dae-villages-greek-sculptor-house-d101c41b6dc34bd89b1006a84c507d15) by meesvanhout (https://sketchfab.com/meesjevanhout) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

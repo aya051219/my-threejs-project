@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cartoon fallen tree
+* source:	https://sketchfab.com/3d-models/cartoon-fallen-tree-85be5e12759d460cb5f1f0d7a4c109b6
+* author:	neon_dust (https://sketchfab.com/h_miller)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cartoon fallen tree" (https://sketchfab.com/3d-models/cartoon-fallen-tree-85be5e12759d460cb5f1f0d7a4c109b6) by neon_dust (https://sketchfab.com/h_miller) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
